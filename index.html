@@ -37,19 +37,36 @@
         <section class="form-card">
             <h2 id="formTitle">Add a New Task</h2>
             <form id="todoForm">
-                <input type="text" id="taskInput"
-                placeholder="What do you need to do?"
-                maxlength="120" required>
+                <input type="text" id="taskInput" placeholder="What do you need to do?" maxlength="120" required>
                 <button type="submit" class="add-btn" id="submitBtn"> + Add Task</button>
             </form>
             <p class="form-hint" id="formHint">
-                Press 
+                Press
             </p>
         </section>
 
-        
+        <section class="tasks-section">
+            <div class="tasks-heading">
+                <h2>Your Tasks</h2>
+                <button class="clearCompletedBtn" class="clear-btn">Clear Completed</button>
+                </button>
+            </div>
 
-        
+            <div class="toolbar">
+                <input type="search" id="seacrhInput"
+                placeholder="Search tasks..." />
+            </div>
+
+            <div class="fiters">
+                <button class="filter-btn" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+        </div>
+
+
+
+
     </main>
 
 </body>
