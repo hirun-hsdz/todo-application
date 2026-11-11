@@ -53,8 +53,7 @@
             </div>
 
             <div class="toolbar">
-                <input type="search" id="seacrhInput"
-                placeholder="Search tasks..." />
+                <input type="search" id="seacrhInput" placeholder="Search tasks..." />
             </div>
 
             <div class="fiters">
@@ -62,7 +61,17 @@
                 <button class="filter-btn" data-filter="active">Active</button>
                 <button class="filter-btn" data-filter="completed">Completed</button>
             </div>
-        </div>
+            </div>
+
+            <ul id="todoList" class="todo-list"></ul>
+
+            <div class="empty-state" id="emptyState">
+                <div class="empty-icon">☑️</div>
+                <h3>No tasks to show</h3>
+                <p>Add a new task to get started!</p>
+            </div>
+
+        </section>
 
 
 
